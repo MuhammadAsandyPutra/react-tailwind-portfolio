@@ -12,19 +12,23 @@ export const AboutSection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
                     <h3 className="text-2xl font-semibold">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur rem
+                    Muhammad Asandy Putra - Fullstack Web & Mobile Developer
                     </h3>
 
                     <p className="text-muted-foreground">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Laboriosam, labore aliquam pariatur iste molestias velit assumenda ut debitis eum eos 
-                        voluptates commodi? Molestiae, eius. Odit quis asperiores laborum maxime laudantium.
+                    I am a fullstack web and mobile developer with a strong focus on building
+                    modern applications that combine intuitive design with reliable performance.
+                    With experience in developing both web-based and mobile systems, I am used to
+                    working with the latest technologies to deliver solutions that are not only
+                    functional but also provide an excellent user experience.
                     </p>
 
                     <p className="text-muted-foreground">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Laboriosam, labore aliquam pariatur iste molestias velit assumenda ut debitis eum eos 
-                        voluptates commodi? Molestiae, eius. Odit quis asperiores laborum maxime laudantium.
+                    I believe that software development is not just about writing code, but also
+                    about creating products that bring real value to people. That’s why I always
+                    prioritize quality, efficiency, and innovation in every project I work on.
+                    Moving forward, I am committed to continuously growing and contributing
+                    through meaningful digital solutions.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">

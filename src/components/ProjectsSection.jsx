@@ -2,36 +2,37 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 
 const projects = [
     {
-        id: 1,
-        title: "Prakarsa Hijau",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        image: "/projects/Project1.png",
-        tags: ["React", "Tailwind CSS", "Firebase", "Chakra UI"],
-        demoUrl: "#",
-        githubUrl: "#",
-
+      id: 1,
+      title: "Prakarsa Hijau",
+      description:
+        "A web platform focused on environmental awareness and carbon emission reduction. It features articles, eco-friendly tips, and a carbon footprint calculator to encourage sustainable living.",
+      image: "/projects/Project1.png",
+      tags: ["React", "Tailwind CSS", "Firebase", "Chakra UI"],
+      demoUrl: "#",
+      githubUrl: "#",
     },
     {
-        id: 2,
-        title: "Signify App",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        image: "/projects/Project2.png",
-        tags: ["Kotlin", "Express.js", "Firebase", "Image Recognition"],
-        demoUrl: "#",
-        githubUrl: "#",
-
+      id: 2,
+      title: "Signify App",
+      description:
+        "A learning app designed to help users study sign language with interactive features. It includes image recognition for hand signs and quizzes to enhance the learning experience.",
+      image: "/projects/Project2.png",
+      tags: ["Kotlin", "Express.js", "Firebase", "Image Recognition"],
+      demoUrl: "#",
+      githubUrl: "#",
     },
     {
-        id: 3,
-        title: "Indvo",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        image: "/projects/Project3.png",
-        tags: ["PHP", "Bootstrap", "PHPMyAdmin", "Midtrans Gateaway"],
-        demoUrl: "#",
-        githubUrl: "#",
-
+      id: 3,
+      title: "Indvo",
+      description:
+        "A volunteering platform that connects people with meaningful activities. Users can register, join volunteer events, donate materials or funds, and even participate in blood donation drives.",
+      image: "/projects/Project3.png",
+      tags: ["PHP", "Bootstrap", "PHPMyAdmin", "Midtrans Gateaway"],
+      demoUrl: "#",
+      githubUrl: "#",
     },
-]
+  ];
+  
 
 
 export const ProjectsSection = () => {
