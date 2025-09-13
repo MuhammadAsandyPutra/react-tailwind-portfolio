@@ -6,7 +6,7 @@ const projects = [
       title: "Prakarsa Hijau",
       description:
         "A web platform focused on environmental awareness and carbon emission reduction. It features articles, eco-friendly tips, and a carbon footprint calculator to encourage sustainable living.",
-      image: "/projects/Project1.png",
+      image: "/projects/Project2.png",
       tags: ["React", "Tailwind CSS", "Firebase", "Chakra UI"],
       demoUrl: "#",
       githubUrl: "#",
@@ -16,7 +16,7 @@ const projects = [
       title: "Signify App",
       description:
         "A learning app designed to help users study sign language with interactive features. It includes image recognition for hand signs and quizzes to enhance the learning experience.",
-      image: "/projects/Project2.png",
+      image: "/projects/Project1.png",
       tags: ["Kotlin", "Express.js", "Firebase", "Image Recognition"],
       demoUrl: "#",
       githubUrl: "#",
@@ -57,8 +57,8 @@ export const ProjectsSection = () => {
                             </div>
                             <div className="p-6">
                                 <div className="flex flex-wrap gap-2 mb-4">
-                                    {project.tags.map((tag) => (
-                                        <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"> 
+                                    {project.tags.map((tag,key) => (
+                                        <span key={key} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"> 
                                             {tag}
                                         </span>
                                     ))}
